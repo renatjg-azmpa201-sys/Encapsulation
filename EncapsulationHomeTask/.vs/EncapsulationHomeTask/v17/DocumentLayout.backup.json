@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vivex\\Desktop\\Encapsulation Task\\EncapsulationHomeTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA1325D-C003-44FF-99DE-5D52459C8C3E}|EncapsulationHomeTask\\EncapsulationHomeTask.csproj|c:\\users\\vivex\\desktop\\encapsulation task\\encapsulationhometask\\encapsulationhometask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FA1325D-C003-44FF-99DE-5D52459C8C3E}|EncapsulationHomeTask\\EncapsulationHomeTask.csproj|solutionrelative:encapsulationhometask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FA1325D-C003-44FF-99DE-5D52459C8C3E}|EncapsulationHomeTask\\EncapsulationHomeTask.csproj|c:\\users\\vivex\\desktop\\encapsulation task\\encapsulationhometask\\encapsulationhometask\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FA1325D-C003-44FF-99DE-5D52459C8C3E}|EncapsulationHomeTask\\EncapsulationHomeTask.csproj|solutionrelative:encapsulationhometask\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\vivex\\Desktop\\Encapsulation Task\\EncapsulationHomeTask\\EncapsulationHomeTask\\User.cs",
+              "RelativeDocumentMoniker": "EncapsulationHomeTask\\User.cs",
+              "ToolTip": "C:\\Users\\vivex\\Desktop\\Encapsulation Task\\EncapsulationHomeTask\\EncapsulationHomeTask\\User.cs",
+              "RelativeToolTip": "EncapsulationHomeTask\\User.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAA8wGcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T20:25:24.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vivex\\Desktop\\Encapsulation Task\\EncapsulationHomeTask\\EncapsulationHomeTask\\Program.cs",
+              "RelativeDocumentMoniker": "EncapsulationHomeTask\\Program.cs",
+              "ToolTip": "C:\\Users\\vivex\\Desktop\\Encapsulation Task\\EncapsulationHomeTask\\EncapsulationHomeTask\\Program.cs",
+              "RelativeToolTip": "EncapsulationHomeTask\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T20:23:19.213Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

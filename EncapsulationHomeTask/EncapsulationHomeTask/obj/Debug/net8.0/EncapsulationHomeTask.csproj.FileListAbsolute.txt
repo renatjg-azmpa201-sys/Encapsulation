@@ -1,0 +1,14 @@
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\bin\Debug\net8.0\EncapsulationHomeTask.exe
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\bin\Debug\net8.0\EncapsulationHomeTask.deps.json
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\bin\Debug\net8.0\EncapsulationHomeTask.runtimeconfig.json
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\bin\Debug\net8.0\EncapsulationHomeTask.dll
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\bin\Debug\net8.0\EncapsulationHomeTask.pdb
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.AssemblyInfoInputs.cache
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.AssemblyInfo.cs
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.csproj.CoreCompileInputs.cache
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.dll
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\refint\EncapsulationHomeTask.dll
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.pdb
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.genruntimeconfig.cache
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\ref\EncapsulationHomeTask.dll
