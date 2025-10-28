@@ -12,3 +12,4 @@ C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHom
 C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.pdb
 C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.genruntimeconfig.cache
 C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\ref\EncapsulationHomeTask.dll
+C:\Users\vivex\Desktop\Encapsulation Task\EncapsulationHomeTask\EncapsulationHomeTask\obj\Debug\net8.0\EncapsulationHomeTask.sourcelink.json

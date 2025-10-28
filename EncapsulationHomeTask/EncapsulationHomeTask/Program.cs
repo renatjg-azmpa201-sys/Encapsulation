@@ -1,76 +1,88 @@
-﻿using EncapsulationHomeTask;
-using System.Xml.Serialization;
+﻿using System;
+using EncapsulationHomeTask;
 
-User user = new User();
-user.SetName();
-user.SetSurname();
-user.SetEmail();
-user.SetAge();
-user.PassChecker();
-user.AccessPassword();
-
-User user1 = new User();
-user1.SetName();
-user1.SetSurname();
-user1.SetEmail();
-user1.SetAge();
-user1.PassChecker();
-user1.AccessPassword();
-
-User user2 = new User();
-user2.SetName();
-user2.SetSurname();
-user2.SetEmail();
-user2.SetAge();
-user2.PassChecker();
-user2.AccessPassword();
-
-User user3 = new User();
-user3.SetName();
-user3.SetSurname();
-user3.SetEmail();
-user3.SetAge();
-user3.PassChecker();
-user3.AccessPassword();
-
-
-string coice = Console.ReadLine();
-while (true)
+namespace EncapsulationApp
 {
-    if (coice == "1")
-    {  
-        User[] users = { user , user1 , user2 , user3  };
-        foreach (var usr in users)
-        {
-            usr.GetInfo();
-            Console.WriteLine("===================================");
-        }
-    }
-    else if (coice == "2")
+    internal class Program
     {
-        int idToFind;
-        Console.Write("Enter the ID of the user to find: ");
-        idToFind = int.Parse(Console.ReadLine()) ;
-        User[] users = { user , user1 , user2 , user3  };
-        foreach (var usr in users)
+        static void Main()
         {
-            if (usr.ID == idToFind)
+            Console.WriteLine("=== USER REGISTRATION ===\n");
+
+            
+            User user = CreateUser();
+            User user1 = CreateUser();
+            User user2 = CreateUser();
+            User user3 = CreateUser();
+
+            User[] users = { user, user1, user2, user3 };
+
+            Console.WriteLine("\n=== MENU ===");
+            Console.WriteLine("1. Show all users");
+            Console.WriteLine("2. Find user by ID");
+            Console.WriteLine("3. Exit\n");
+
+            while (true)
             {
-                usr.GetInfo();
-                break;
+                Console.Write("Enter your choice: ");
+                string choice = Console.ReadLine();
+
+                if (choice == "1")
+                {
+                    Console.WriteLine("\n=== All Users ===");
+                    foreach (var usr in users)
+                    {
+                        usr.GetInfo();
+                        Console.WriteLine("===========================");
+                    }
+                }
+                else if (choice == "2")
+                {
+                    Console.Write("Enter the ID of the user to find: ");
+                    if (int.TryParse(Console.ReadLine(), out int idToFind))
+                    {
+                        User foundUser = Array.Find(users, u => u.ID == idToFind);
+
+                        if (foundUser != null)
+                        {
+                            Console.WriteLine("\nUser found:");
+                            foundUser.GetInfo();
+                        }
+                        else
+                        {
+                            Console.WriteLine("No user found with that ID.");
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Invalid ID format!");
+                    }
+                }
+                else if (choice == "3")
+                {
+                    Console.WriteLine("Exiting program...");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Invalid choice. Try again (1, 2 or 3).");
+                }
+
+                Console.WriteLine();
             }
         }
-    }
-    else if (coice == "3")
-    {
-        break;
-    }
-    else
-    {
-        Console.WriteLine("Invalid choice. Please try again.");
-        Console.WriteLine("Enter 1 to display all users, 2 to find a user by ID, or 3 to exit:");
-        Console.ReadLine();
-    }
 
-
+        static User CreateUser()
+        {
+            User user = new User();
+            user.SetName();
+            user.SetSurname();
+            user.SetEmail();
+            user.SetAge();
+            user.PassChecker();
+            user.AccessPassword();
+            Console.WriteLine("User created successfully!\n");
+            return user;
+        }
+    }
 }
